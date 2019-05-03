@@ -1,0 +1,369 @@
+                        /*
+                           Md: Rakibul Alam
+                           Department:Computer Science and Engineering
+                           Full stack Web Developer
+                        */
+
+
+/*This is the Header Section*/
+#header-section {
+    overflow: hidden;
+}
+
+/*Container-fluid Code will be gose here*/
+.header-container {
+    height: auto;
+    background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+
+
+}
+
+/*Hill Image Code will be gose here*/
+.backgroundImage {
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    margin-top: -25px;
+    display: block;
+
+
+
+}
+
+/*Main header Code will be gose here*/
+
+.main-header {
+    margin-bottom: 80px;
+}
+
+
+/*Header text Code will he gose here*/
+.main-header .header-text {
+    padding-top: 50px;
+    font-family: Helvetica;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+
+/*Count Down Style Code will be gose here*/
+.countdown {
+    position: relative;
+}
+
+.countTable {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100px;
+    width: 30%;
+
+    font-family: sans-serif;
+}
+
+.info {
+    font-size: 35px;
+    font-family: Helvetica;
+}
+
+.info1 {
+    font-size: 18px;
+}
+/*Count Down Code ends here*/
+
+
+
+
+/*Cloud animate Code start here*/
+.main-cloud {
+
+    position: relative;
+}
+
+.cloud div {
+
+    position: absolute;
+    top: 0;
+    right: -170px;
+    height: auto;
+    width: 120px;
+    animation: move 20s linear infinite;
+
+}
+
+.cloud div img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes move {
+    0% {
+        right: -170px;
+    }
+
+    100% {
+        right: 100%
+    }
+}
+
+.cloud div:nth-child(1) {
+    animation-delay: 16s;
+    animation-direction: 20s;
+    margin-top: -93px;
+}
+
+.cloud div:nth-child(2) {
+    animation-delay: 14s;
+    animation-direction: 10s;
+    margin-top: -230px;
+}
+
+.cloud div:nth-child(3) {
+    animation-delay: 13s;
+    animation-direction: 5s;
+
+}
+
+.cloud div:nth-child(4) {
+    animation-delay: 4s;
+    animation-direction: 10s;
+    margin-top: -93px;
+}
+
+.cloud div:nth-child(5) {
+    animation-delay: 10s;
+    animation-direction: 15s;
+    margin-top: -250px;
+}
+
+/*Cloud Animation Code end here*/
+
+
+
+
+
+/*Our Main button class style here*/
+.main-button {
+    position: relative;
+    margin-top: 220px;
+}
+
+
+
+
+
+/*start-btn class style code will be goes here*/
+.started-btn {
+    position: absolute;
+    left: 49%;
+    margin-bottom: 50px;
+
+    bottom: 0;
+    margin: auto;
+
+}
+
+
+
+
+
+/*Our button Stule code will be goes here*/
+.mybtn {
+    background-color: #4378F8;
+    height: 56px;
+    width: 160px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-family: SourceSansPro-Bold;
+
+}
+
+
+
+
+
+/*Our text-descriotion style code will be goes here*/
+.text-description{
+    margin-left: 140px;
+}
+
+
+
+
+/*This is Our content-section style code*/
+#content-section {
+    background-image: linear-gradient(-180deg, #D5E2FF 0%, #FFFFFF 100%);
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+/*first-container style code will be goes here*/
+.first-container {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+/*Our feature-one-text style code will be goes here*/
+.feature-one-text {
+    margin-top: 70px;
+    font-family: Helvetica;
+    color: #121C25 100%;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+
+
+
+
+/*This is Our feature-description style code*/
+.feature-description {
+    font-family: Roboto-Regular;
+    color: #121C25 100%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+
+
+/*Our featureOne-img style code will be goes here*/
+.featureOne-img {
+    height: 593px;
+    width: 100%;
+    opacity: 100%;
+    
+    
+}
+
+
+
+
+
+/*section-container style code will be goes here*/
+.second-container {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/*featureTwo-img style code will be goes here*/
+.featureTwo-img {
+    height: 560px;
+    width: 100%;
+    opacity: 100%;
+}
+
+
+
+
+
+/*Our about-section id Style code will be gose here*/
+#about-section {
+    background-color: #F4F4F4 100%;
+    height: auto;
+    padding-top: 40px;
+    margin-bottom: 120px;
+
+}
+
+
+
+
+
+/*about-header-text style code here*/
+.about-header-text {
+    color: #121C25 100%;
+    font-family: Helvetica;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+
+
+
+
+/*Card Style Override Here*/
+.card{
+    border-radius: 0 !important;
+}
+
+
+
+
+
+/*Image Overlay Style here*/
+.image-overlay {
+    position: relative;
+    width: 353px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*about-text class style here*/
+.about-text {
+    font-family: SourceSansPro-Regular;
+    color: #61686D 100%;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+/*about-overlay class Style here*/
+.image-overlay .about-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
+
+
+
+/*personName Class style here*/
+.about-overlay .personName{
+    font-family: Helvetica;
+    color:#121C25 100%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/*Status Class Style here*/
+.about-overlay .status{
+    color: #7B7B7B 100%;
+    font-size: 14px;
+    font-family: Roboto-Regular;
+    line-height: 19px;
+}
+
+
