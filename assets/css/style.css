@@ -25,6 +25,7 @@
     height: 350px;
     margin-top: -25px;
     display: block;
+   
 
 
 
@@ -48,6 +49,7 @@
 
 /*Count Down Style Code will be gose here*/
 .countdown {
+    z-index: 99;
     position: relative;
 }
 
@@ -301,6 +303,7 @@
 /*Card Style Override Here*/
 .card{
     border-radius: 0 !important;
+    border: 0 !important;
 }
 
 
@@ -366,4 +369,27 @@
     line-height: 19px;
 }
 
+
+
+@media only screen and (max-width: 768px) {
+	#one {
+		order: 2;
+	}
+	#two {
+		order: 1;
+	}
+    
+    .aboutImage{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 804px) {
+    .header-text{
+        font-size: 30px !important;
+        line-height: 50px !important;
+    }
+}
 
